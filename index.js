@@ -13,7 +13,7 @@ const autoCompleteConfig = {
 
   fetchData: async function (searchTerm) {
     // console.log(searchTerm);
-    const response = await axios.get('http://www.omdbapi.com/', {
+    const response = await axios.get('https://www.omdbapi.com/', {
       params: {
         apiKey: '38e02dba',
         s: searchTerm,
